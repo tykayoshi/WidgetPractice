@@ -126,10 +126,10 @@ struct ParkingWidgetView: View {
             VStack(alignment: .trailing) {
               Image("mapPlaceholder")
                 .resizable()
-                  .cornerRadius(10)
+                  .cornerRadius(20)
                   .overlay(RoundedRectangle(cornerRadius: 10)
                       .stroke(Color.clear, lineWidth: 0))
-                .frame(width: 180, height: 150)
+                .frame(width: 170, height: 130)
                 .scaledToFit()
             }.padding(EdgeInsets(top: 20, leading: 0, bottom: 20, trailing: 20))
           }
