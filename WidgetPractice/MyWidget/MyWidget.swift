@@ -129,7 +129,7 @@ struct ParkingWidgetView: View {
                   .cornerRadius(10)
                   .overlay(RoundedRectangle(cornerRadius: 10)
                       .stroke(Color.clear, lineWidth: 0))
-                .frame(width: 200, height: 150)
+                .frame(width: 180, height: 150)
                 .scaledToFit()
             }.padding(EdgeInsets(top: 20, leading: 0, bottom: 20, trailing: 20))
           }
