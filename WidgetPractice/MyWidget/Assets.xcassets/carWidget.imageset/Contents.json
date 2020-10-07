@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "carWidget.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
